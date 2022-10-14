@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class Principal{
+
+    public static void main(String [] args){
+
+        for(int x=1;x<=4;x=x+1){
+
+            System.out.println(x);
+
+        }//for
+    }//main
+}//class
