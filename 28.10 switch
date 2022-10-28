@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Principal {
+    public static void main(String[] args){
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Digite o numero referente ao mes de pagamento:");
+
+        int mes = entrada.nextInt();
+
+        switch (mes){
+
+            case 0:
+                System.out.println("Pagamento em Janeiro");
+                break;
+
+            case 1:
+                System.out.println("Pagamento em Fevereiro");
+                break;
+
+            case 2:
+                System.out.println("Pagamento em Março");
+                break;
+
+            default:
+                System.out.println("Pagamento em maio");
+
+        }//mes
+    }//main
+}//class
